@@ -23,7 +23,6 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		424607F01C04A9CD00BF8DD9 /* PlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 424607EE1C04A9CD00BF8DD9 /* PlayManager.m */; };
 		424607FC1C04A9E300BF8DD9 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424607FB1C04A9E300BF8DD9 /* MediaPlayer.framework */; };
-		424607FF1C04AD3B00BF8DD9 /* 1.avi in Resources */ = {isa = PBXBuildFile; fileRef = 424607FE1C04AD3B00BF8DD9 /* 1.avi */; };
 		424608011C04B06100BF8DD9 /* 葫芦娃.mov in Resources */ = {isa = PBXBuildFile; fileRef = 424608001C04B06100BF8DD9 /* 葫芦娃.mov */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
@@ -132,7 +131,6 @@
 		424607EF1C04A9CD00BF8DD9 /* PlayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayManager.h; sourceTree = "<group>"; };
 		424607FB1C04A9E300BF8DD9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		424607FD1C04AACF00BF8DD9 /* AMMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMacro.h; sourceTree = "<group>"; };
-		424607FE1C04AD3B00BF8DD9 /* 1.avi */ = {isa = PBXFileReference; lastKnownFileType = video.avi; path = 1.avi; sourceTree = "<group>"; };
 		424608001C04B06100BF8DD9 /* 葫芦娃.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "葫芦娃.mov"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -243,7 +241,6 @@
 		13B07FAE1A68108700A75B9A /* test */ = {
 			isa = PBXGroup;
 			children = (
-				424607FE1C04AD3B00BF8DD9 /* 1.avi */,
 				424607FD1C04AACF00BF8DD9 /* AMMacro.h */,
 				424607EF1C04A9CD00BF8DD9 /* PlayManager.h */,
 				424607EE1C04A9CD00BF8DD9 /* PlayManager.m */,
@@ -524,7 +521,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				424607FF1C04AD3B00BF8DD9 /* 1.avi in Resources */,
 				424608011C04B06100BF8DD9 /* 葫芦娃.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
