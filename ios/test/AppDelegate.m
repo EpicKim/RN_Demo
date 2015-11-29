@@ -32,7 +32,7 @@
    */
 
 //  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.android.bundle?platform=ios&dev=true"];
-  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/MoviesApp.ios.bundle?platform=ios&dev=true"];
+  jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.android.bundle?platform=ios&dev=true"];
 //http://localhost:8081/Examples/Movies/MoviesApp.ios.bundle?platform=ios&dev=true
   /**
    * OPTION 2

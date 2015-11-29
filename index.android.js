@@ -24,6 +24,8 @@ var {
   StyleSheet,
   ToolbarAndroid,
   View,
+  Platform,
+  NavigatorIOS,
 } = React;
 
 var MovieScreen = require('./MovieScreen');
@@ -49,7 +51,6 @@ var RouteMapper = function(route, navigationOperations, onComponentRef) {
       <View style={{flex: 1}}>
         <ToolbarAndroid
           actions={[]}
-          // navIcon={require('image!android_back_white')}
           onIconClicked={navigationOperations.pop}
           style={styles.toolbar}
           titleColor="white"
@@ -66,15 +67,27 @@ var RouteMapper = function(route, navigationOperations, onComponentRef) {
 
 var MoviesApp = React.createClass({
   render: function() {
-    var initialRoute = {name: 'search'};
-    return (
-      <Navigator
+    if (Platform.OS === 'android') {
+      var initialRoute = {name: 'search'};
+      return (
+        <Navigator
+          style={styles.container}
+          initialRoute={initialRoute}
+          configureScene={() => Navigator.SceneConfigs.FadeAndroid}
+          renderScene={RouteMapper}/>
+      );
+    }
+    else 
+    {
+      return (
+      <NavigatorIOS
         style={styles.container}
-        initialRoute={initialRoute}
-        configureScene={() => Navigator.SceneConfigs.FadeAndroid}
-        renderScene={RouteMapper}
-      />
+        initialRoute={{
+          title: '2345影视',
+          component: SearchScreen,
+        }}/>
     );
+    }
   }
 });
 

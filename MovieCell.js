@@ -83,7 +83,7 @@ var styles = StyleSheet.create({
   },
   movieYear: {
     color: '#999999',
-    fontSize: 12,
+    fontSize: 14,
   },
   row: {
     alignItems: 'center',
